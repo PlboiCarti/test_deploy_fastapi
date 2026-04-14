@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+pwdlib[argon2] #bcrypt dần bị thay thế bằng pwdlib[argon2]
+pyjwt # python-jose dần bị thay thế bằng pyjwt
+
+python-multipart ư
+# python-multipart --> "bộ thông dịch" giúp FastAPI đọc được dữ liệu dạng Form thay vì chỉ đọc được mỗi JSON.
+
+
+# pip3 install -r requirements.txt
+
+# python3 -m venv blog-env
+
+# Câu lệnh in ra SECRET_KEY:
+# python -c "import secrets; print(secrets.token_hex(32))"
