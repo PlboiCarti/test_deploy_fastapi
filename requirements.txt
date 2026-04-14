@@ -4,7 +4,7 @@ sqlalchemy
 pwdlib[argon2] #bcrypt dần bị thay thế bằng pwdlib[argon2]
 pyjwt # python-jose dần bị thay thế bằng pyjwt
 
-python-multipart ư
+python-multipart 
 # python-multipart --> "bộ thông dịch" giúp FastAPI đọc được dữ liệu dạng Form thay vì chỉ đọc được mỗi JSON.
 
 
